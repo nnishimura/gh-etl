@@ -1,4 +1,4 @@
-## rust-gh-etl
+## github-etl
 
 Experimental ETL pipeline built in Rust
 

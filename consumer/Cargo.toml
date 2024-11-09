@@ -1,0 +1,15 @@
+[package]
+name = "gh-etl-consumer"
+version = "0.1.0" 
+edition = "2021"
+
+[dependencies]
+dotenv = { workspace = true }
+serde_with = { workspace = true }
+reqwest = { version = "*", features = ["json"] }
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
+rdkafka = { version = "0.25", features = ["ssl"] }
+tokio = { version = "*", features = ["full"] }
+futures-util = { workspace = true }
+neo4rs = "0.8.0"

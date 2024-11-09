@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = ["consumer", "producer"]
+
+[workspace.dependencies]
+dotenv = "*"
+serde_with = "*"
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
+futures-util = "0.3.21"
